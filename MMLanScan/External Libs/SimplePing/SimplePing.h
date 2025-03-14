@@ -9,7 +9,7 @@
 @import Foundation;
 
 #include <AssertMacros.h>           // for __Check_Compile_Time
-
+#import <sys/_types/_sa_family_t.h> //fix xcode16.2 报错
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol SimplePingDelegate;
